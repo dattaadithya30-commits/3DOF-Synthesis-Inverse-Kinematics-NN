@@ -18,7 +18,7 @@ To stop the network from getting confused, I added two geometric rules to the da
 
 ## Results
 By fixing the redundancy and scaling the data properly, the model learned the inverse kinematics successfully.
-* **Final Accuracy:** 1.84 degrees Mean Absolute Error (MAE).
+* **Final Accuracy:** Under 2 degrees Mean Absolute Error (MAE), which is improving for every run.
 * **Speed:** Because it uses a simple forward pass instead of iterative loops, it predicts the angles almost instantly.
 
 ![3R Workspace](3r_workspace.png)
