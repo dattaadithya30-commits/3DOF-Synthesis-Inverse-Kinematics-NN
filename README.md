@@ -13,9 +13,9 @@ To stop the network from getting confused, I added two geometric rules to the da
 
 ## Model Details
 * **Algorithm:** Multi-Layer Perceptron (`MLPRegressor` from Scikit-Learn).
+* **Arm Specifications:** A 3-DOF planar arm with constant link lengths (l1 = 1.0m, l2 = 1.0m, l3 = 1.0m).
 * **Data Scaling:** I used a double-scaler approach. Both the inputs (X) and the target angles (Y) were scaled between -1 and 1 using `MinMaxScaler`. This helped the network learn the trigonometric patterns without the gradients vanishing.
-* **Dataset:** 100,000 synthetic geometric points generated in Python.
-
+* **Dataset:** 100,000 synthetic geometric points generated in Python to perfectly map the arm's physical workspace.
 ## Results
 By fixing the redundancy and scaling the data properly, the model learned the inverse kinematics successfully.
 * **Final Accuracy:** Under 2 degrees Mean Absolute Error (MAE), which is improving for every run.
