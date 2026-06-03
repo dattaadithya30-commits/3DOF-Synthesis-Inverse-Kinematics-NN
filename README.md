@@ -27,7 +27,7 @@ By fixing the redundancy and scaling the data properly, the model learned the in
 To run this project locally, clone the repository and install the dependencies in one command:
 
 ```bash
-git clone https://github.com/dattaadithya30-commits/3R-Inverse-Kinematics-NN.git
+git clone https://github.com/dattaadithya30-commits/3DOF-Synthetic-Inverse-Kinematics-NN.git
 cd 3R-Inverse-Kinematics-NN
 pip install -r requirements.txt
 
