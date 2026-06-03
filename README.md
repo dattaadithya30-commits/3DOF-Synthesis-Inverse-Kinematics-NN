@@ -23,6 +23,14 @@ By fixing the redundancy and scaling the data properly, the model learned the in
 
 ![3R Workspace](3r_workspace.png)
 
+## How to Run
+To run this project locally, clone the repository and install the dependencies in one command:
+
+```bash
+git clone [https://github.com/dattaadithya30-commits/3R-Inverse-Kinematics-NN.git](https://github.com/YOUR-USERNAME/3R-Inverse-Kinematics-NN.git)
+cd 3R-Inverse-Kinematics-NN
+pip install -r requirements.txt
+
 ## Built With
 * Python
 * Scikit-Learn
